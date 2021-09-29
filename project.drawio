@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T09:18:50.848Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="X7VTS929mFH7ftUnqtTl" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T09:24:25.798Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="EWRh1041zU-H7AQDHSSg" version="15.3.7" type="github">
   <diagram id="FBbiR5uJlQiM5yGE_pA_" name="Page-1">
     <mxGraphModel dx="826" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,8 +82,8 @@
             <mxPoint x="500" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hqe99daUW89fWSJLYfZv-31" value="MSG DELIVERY MODULE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="440" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="Hqe99daUW89fWSJLYfZv-31" value="MSG DELIVERY MODULE&lt;br&gt;(RTP SERVER CREATED ONCE PRESENCE MODULE TRIGGERED)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="130" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Hqe99daUW89fWSJLYfZv-32" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="490" y="260" width="40" height="20" as="geometry" />
@@ -105,8 +105,29 @@
         <mxCell id="Hqe99daUW89fWSJLYfZv-39" value="RETURN PENDING MSG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="330" y="-60" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Hqe99daUW89fWSJLYfZv-41" value="DELIVERED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="600" y="-10" width="80" height="20" as="geometry" />
+        <mxCell id="Hqe99daUW89fWSJLYfZv-41" value="SEND MSG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="605" y="-10" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqe99daUW89fWSJLYfZv-43" value="" style="endArrow=classic;html=1;fontSize=11;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hqe99daUW89fWSJLYfZv-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="-50" as="sourcePoint" />
+            <mxPoint x="680" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hqe99daUW89fWSJLYfZv-46" value="REMOVE MSG ID N CAUSE ITS DELIVERED&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="345" y="-140" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqe99daUW89fWSJLYfZv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="Hqe99daUW89fWSJLYfZv-49" target="Hqe99daUW89fWSJLYfZv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqe99daUW89fWSJLYfZv-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.625;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="Hqe99daUW89fWSJLYfZv-49" target="Hqe99daUW89fWSJLYfZv-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqe99daUW89fWSJLYfZv-49" value="DELIVERED ?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="595" y="-90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqe99daUW89fWSJLYfZv-52" value="RETRY CALL BACK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="485" y="-70" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
