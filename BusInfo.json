@@ -1,0 +1,24 @@
+{
+  "bus":{
+    "0351510093645193":{
+      "time":{
+        "07:00 AM":{
+          "type":"Male",
+          "route":"2"
+        },
+        "11:25 AM":{
+          "type":"Female",
+          "route":"2"
+        },
+        "02:25 PM":{
+          "type":"Teacher",
+          "route":"Meril-Ananta-Terminal"
+        },
+        "06:00 PM":{
+          "type":"Stuff",
+          "route":"2"
+        }
+      }
+    }
+}
+}
