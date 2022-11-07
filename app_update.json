@@ -1,4 +1,5 @@
 {
-"version_code":9,
-"link":"https://github.com/me-sharif-hasan/blog-content/blob/main/app-release.apk?raw=true"
+"version_code":10,
+"link":"https://github.com/me-sharif-hasan/blog-content/blob/main/app-release.apk?raw=true",
+"msg":"Fixed! stoppage not loading on slow net."
 }
