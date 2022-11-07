@@ -1,5 +1,5 @@
 {
-"version_code":10,
+"version_code":11,
 "link":"https://github.com/me-sharif-hasan/blog-content/blob/main/app-release.apk?raw=true",
-"msg":"Fixed! stoppage not loading on slow net."
+"msg":"Fixed! (1) stoppage not loading on slow net. (2) Compass button reposition!"
 }
