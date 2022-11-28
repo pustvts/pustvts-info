@@ -1,5 +1,5 @@
 {
 "version_code":15,
 "link":"https://pustvts.github.io/pustvts-info/app-release.apk",
-"msg":"Version: 2.6, Bus status color bug fixed!"
+"msg":"Version: 2.6, Bus status color bug fixed!, for updating error, 1) Click YES and wait for download. 2) location your app at Android/data/bd.ac.pust.pustvtsunofficial 3) Move app.apk to root. 4) Uninstall previous app. 5) Install app.apk! 6) Sorry for the inconviniance." 
 }
